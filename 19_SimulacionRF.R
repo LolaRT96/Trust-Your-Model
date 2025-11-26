@@ -87,9 +87,7 @@ best_n_tree <- trees[which.min(errors)]
 
 cat("The minor error", min_error, "occurs with", best_n_tree, "trees.\n")
 
-
-
-# BOOTSTRAP FOR DISCRIMINATION AND CALIBRATION ASSESSMENT -----------------
+# Assessing model performance with bootstrap resampling -----------------
 
 df <- df_simulacion_fit
 df$pres <- factor(df$pres, levels = c(0,1))
@@ -206,7 +204,6 @@ p_log <- plot(df_results_prevalences_fix, "BrierScore")
 
 windows()
 (p_auc | p_sens | p_thr) / (p_spec | p_tss | p_log) 
-
 
 
 # MODELS AND PREDICTION --------------------------------
