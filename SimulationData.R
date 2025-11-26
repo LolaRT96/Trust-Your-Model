@@ -1,11 +1,7 @@
-#Marine BEACON Project (PhD Chapter One)
-#Authors: Lola Riesgo 
-#General objetive: evaluacion del poder predictivo de los modelos en el cambio de los ratios con datos 
-#SIMULADOS 
-
-#1. Generar los datos simulados (mismos que en GAM-INLA scripts)
-#Datos prediccion 
-#Datos fitted models 
+ 
+#Authors: Maria Dolores Riesgo (IEO-CSIC)
+#Research paper: "Trust your model"
+#General objective: generate simulated data for fit the models 
 
 #R version 4.4.2
 
@@ -22,7 +18,7 @@ library(fields) # spatial interpolation, kriging and plots
 library(gridExtra) # arrange multiple ggplots
 library(ggplot2) # data visualization
 library(openxlsx)  # read/write Excel files (.xlsx)
-library(INLA) # Bayesian spatial/temporal modeling
+library(INLA) # Bayesian spatial/temporal modeling 
 library(GGally) # extensions for ggplot2 (e.g., ggpairs)
 library(tidyverse) # data manipulation & visualization suite
 library(gstat)  # geostatistical modeling & kriging
