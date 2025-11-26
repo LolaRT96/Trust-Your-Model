@@ -22,7 +22,7 @@ library(fields) # spatial interpolation, kriging and plots
 library(gridExtra) # arrange multiple ggplots
 library(ggplot2) # data visualization
 library(openxlsx)  # read/write Excel files (.xlsx)
-library(INLA) # Bayesian spatial/temporal modeling
+library(INLA) # Bayesian spatial/temporal modeling 
 library(GGally) # extensions for ggplot2 (e.g., ggpairs)
 library(tidyverse) # data manipulation & visualization suite
 library(gstat)  # geostatistical modeling & kriging
